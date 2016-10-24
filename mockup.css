@@ -1,0 +1,219 @@
+
+#main {
+  max-width:1000px;
+  margin: 0 auto;
+  display:block;
+  padding-bottom: 40px;
+}
+
+#mainnav {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .12px;
+  width: 950px;
+  margin-bottom: 20px;
+  padding: 20px 15px 20px 10px;
+
+}
+
+.fa-globe {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.fa-heart-o {
+  position: relative;
+  left: 170px;
+
+}
+
+
+#forsale li {
+  float: left;
+  list-style-type: none;
+  padding: 5px;
+}
+
+#forsale  {
+
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .12px;
+
+
+}
+
+#main p {
+  text-transform: uppercase;
+}
+
+.ad {
+  background-color: #439CD2;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+  color: #fff;
+
+}
+
+.ad:hover {
+opacity: 0.9;
+
+}
+
+body {
+  background-color: #F1F2F6;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+  color: #8d8d8e;
+
+}
+
+.oldest {
+  margin-left: 210px;
+  border: none;
+}
+
+#secnav li{
+  padding: 5px 25px 5px 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 20px;
+  border-right: solid 1px #d3d3d3;
+
+}
+
+#secnav.fa-angle-down {
+  padding-left: 10px;
+}
+
+#secnav li:first-child {
+  letter-spacing: 8px;
+}
+
+#secnav li:last-child {
+  border: none;
+}
+
+#mainnav li, #secnav li {
+  display: inline;
+
+}
+
+#mainnav ul, #secnav ul, #listings ul{
+  list-style-type: none;
+}
+
+#listings {
+
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+
+  height: 600px;
+}
+
+#listings img {
+  width: 280px;
+  height: 185px;
+  border-radius: 5px 5px 0 0;
+
+
+}
+#listings li{
+  margin: 15px;
+  width: 280px;
+  float: left;
+  background-color: #fff;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+
+#listings li:hover {
+  opacity: 0.9;
+}
+
+
+#listings li:first-child {
+  width: 590px;
+
+}
+
+.firstlisting {
+  position: relative;
+  left: 305px;
+
+}
+
+#listings li:first-child img {
+  width: 590px;
+  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+
+}
+
+#listings p {
+  padding: 0 10px 10px 25px;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 14px;
+  text-transform: none;
+
+}
+
+#listings h2 {
+
+  color: #fff;
+  font-weight: lighter;
+  position: relative;
+  top: -55px;
+  left: -85px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+ #listings li:first-child h2{
+  position: relative;
+  left: -235px;
+
+}
+
+
+#search p{
+  display:inline;
+  color: #d3d3d3;
+  text-transform: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.mountains{
+  padding: 10px 400px 10px 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #d3d3d3;
+  text-transform: none;
+  color: #7a7a7a;
+
+}
+.europe{
+    padding: 10px 200px 10px 20px;
+    margin-left: 20px;
+  border-bottom: 1px solid #d3d3d3;
+  text-transform: none;
+  color: #7a7a7a;
+
+
+}
+
+#search {
+  margin: 0 0 80px 60px;
+}
+
+#search.fa-angle-down {
+  border-bottom: 1px solid #d3d3d3;
+
+}
